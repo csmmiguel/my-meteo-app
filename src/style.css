@@ -4,7 +4,7 @@ body {
     rgb(248, 205, 205) 23.2%,
     rgb(149, 170, 211) 77%
   );
-  background-repeat: no-repeat;
+  background-repeat: round;
 }
 .weather-app {
   max-width: 600px;
