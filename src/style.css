@@ -17,6 +17,20 @@ input:focus {
   outline: none;
   cursor: text;
 }
+h1 {
+  padding: 3px;
+  font-family: "Nunito", sans-serif;
+}
+p,
+footer {
+  font-family: "Nunito", sans-serif;
+  color: #585858;
+}
+footer {
+  padding: 20px 0 0 0;
+  font-size: 11px;
+  text-align: center;
+}
 .align {
   align-content: center;
 }
