@@ -4,12 +4,55 @@ body {
     rgb(248, 205, 205) 23.2%,
     rgb(149, 170, 211) 77%
   );
-  background-repeat: round;
 }
+form {
+  display: flex;
+  justify-content: center;
+}
+input:hover {
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+  cursor: text;
+}
+.logo-light {
+  display: block;
+  max-width: 150px;
+  margin: 10px auto;
+  padding-top: 20px;
+}
+
 .weather-app {
   max-width: 600px;
   background: rgba(255, 255, 255, 0.5);
-  margin: 20px 40px;
-  padding: 20px;
-  border-radius: 10px;
+  margin: 100px 100px;
+  padding: 50px 40px;
+  border-radius: 15px;
+}
+.search-input {
+  border: 1px transparent;
+  border-radius: 5px;
+  margin: 5px;
+  height: 40px;
+  width: 700px;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 15px;
+}
+.submit-button {
+  border: 1px solid #8594e4;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  height: 41px;
+  background: #8594e4;
+  color: aliceblue;
+  font-family: "Tenor Sans", sans-serif;
+}
+.submit-button:hover {
+  background: aliceblue;
+  color: #8594e4;
+  box-shadow: 0 0 1em aliceblue;
+  border: 1px solid #8594e4;
+  cursor: pointer;
 }
